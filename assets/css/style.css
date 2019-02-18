@@ -53,8 +53,9 @@ body {
     transition: 0.2s ease-in-out;
 }
 
-.nav-item a:hover {
-    color: #7b7b7b;
+.navbar-default .navbar-nav li a:hover {
+    color: #ff8f00;
+    background-color: transparent;
     transition: 0.2s ease-in-out;
 }
 
@@ -85,6 +86,7 @@ body {
 .hvr-float:active {
     transform: translateY(-8px);
     background-color: transparent;
+    color: #ff8f00;
 }
 
 
@@ -104,13 +106,12 @@ body {
 /*-----------Top-Section----------*/
 
 .top-album {
-    height: 200px;
-    width: 200px;
-    background-image: url(../images/album2.jpg);
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/album2black.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -119,6 +120,7 @@ body {
 .album-column {
     background-color: #e0e0e0;
     height: 400px;
+    padding: 0;
 }
 
 .text-column {
@@ -165,31 +167,25 @@ body {
 }
 
 .icon-info {
-    color: #eaeaea;
+    color: #171717;
     padding: 10px;
 }
 
 .mid-column a {
-    color: #eaeaea;
+    color: #171717;
 }
 
-.shortcut button {
-    background-color: #ffffff;
+.shortcut a {
+    background-color: #171717;
     border: none;
-    color: #000000;
+    color: #ececec;
     transition: 0.3s ease-in-out;
 }
 
-.shortcut button:hover {
-    background-color: #292929;
+.shortcut a:hover {
+    background-color: #ff8f00;
     border: none;
-    color: #efefef;
-    transition: 0.3s ease-in-out;
-}
-
-.button-link:hover {
-    text-decoration: none;
-    color: #efefef;
+    color: #000;
     transition: 0.3s ease-in-out;
 }
 
