@@ -15,19 +15,14 @@ Fans and people who are just learning about The Monkees can discover infomation 
 ### User Stories
 
 * As a user I want to be able to press a button so that I can buy tickets quick and easy for the upcoming band events.
-* As the developer I created a button so that the user can be linked to a website so that they can buy tickets online.
 
-* As a fan I want to be notified so that I find out on the news about the band whenever or where ever I am.
-* As the developer i created a form at the bottom of each page which users input there email information so that they can be informed on the news about the band.
+* As a user I want to be notified so that I find out on the news about the band whenever or where ever I am.
 
 * As a user I want link to be able to find the bands social media sites so that I can see what the band are up to.
-* As the developer I created links on each page which will send the user to the bands social medias so that they can check out what the band are up to.
 
-* As a fan I want a form to fill out so that I can get in touch with the band about booking them for events.
-* As a developer I created a contact page which includes a form for users to be able to fill out so that they can contact the band about booking them for events.
+* As a user I want a form to fill out so that I can get in touch with the band about booking them for events.
 
-* As a fan I want a music player so that I can listen to the bands archive of old and new music.
-* As a developer I embedded the Apple Music player so that the users can listen to the bands libary of music.
+* As a user I want a music player so that I can listen to the bands archive of old and new music.
 
 ## Features 
 
@@ -77,69 +72,68 @@ Fans and people who are just learning about The Monkees can discover infomation 
 #### Features to be implemented 
 
  * Another feature which could be added in the future could be a mechandise page which would allow the users to buy band clothing and accessories. 
- (Or if they mean feature maybe just a search bar added to the navigation so that the user can find something specific to there needs).
  
 ## Technologies Used
 
- * HTML5
+ ### HTML5
   * Markup language used for creating the website.
   
- * CSS3
+ ### CSS3
   * Stylesheet language used to create the presentation of the website.
  
- * JavaScript (https://www.javascript.com/)
- * JQuiry (https://jquery.com/)
- * BootStrap (https://getbootstrap.com/)
+ ### [JavaScript](https://www.javascript.com/) 
+ ### [JQuiry](https://jquery.com/)
+ ### [BootStrap](https://getbootstrap.com/)
   * Used to create the layout of the webpages.
   * Used to create the navigation bar.
   
- * GoogleFonts (https://fonts.google.com/)
+ ### [GoogleFonts](https://fonts.google.com/)
   * Used to add different fonts to the website.
  
- * Font Awesome (https://fontawesome.com/)
-  *Used to add icons to the website.
+ ### [Font Awesome](https://fontawesome.com/)
+  * Used to add icons to the website.
   
- * Hover.css (http://ianlunn.github.io/Hover/)
+ ### [Hover.css](http://ianlunn.github.io/Hover/)
   * Used to create navigation hover effects
  
 ## Testing
 
  * Ticket Buying Buttons
-  1.Go to "Events" page
-  2.Click the "BUY NOW" button
-  3.Verify blank page to "https://www.ticketmaster.com/the-monkees-tickets/artist/735678" opens
+  1. Go to "Events" page
+  2. Click the "BUY NOW" button
+  3. Verify blank page to "https://www.ticketmaster.com/the-monkees-tickets/artist/735678" opens
   
  * Newsletter/Subcription Form
-  1.Go to the bottom of the "Home" page
-  2.Attempt to submit the form empty to verify the field must be filled in
-  3.Fill in the first form with a email address
-  4.Attempt to submit the form with the confirm email form empty to verify the field must be filled in
-  5.Fill both the email and confirm email forms
-  6.Press the submit button
-  7.Fill in the form without using an email adress
-  8.Submit the form to verify the form must include "@"
+  1. Go to the bottom of the "Home" page
+  2. Attempt to submit the form empty to verify the field must be filled in
+  3. Fill in the first form with a email address
+  4. Attempt to submit the form with the confirm email form empty to verify the field must be filled in
+  5. Fill both the email and confirm email forms
+  6. Press the submit button
+  7. Fill in the form without using an email adress
+  8. Submit the form to verify the form must include "@"
   
  * Social Media Links (Navigation & Footer link test)
-  1.Go to "Home" page
-  2.click the social links
-  3.Verify each link is going to a blank page
-  4.Verify each link goes to the correct social media website
+  1. Go to "Home" page
+  2. Click the social links
+  3. Verify each link is going to a blank page
+  4. Verify each link goes to the correct social media website
   
  * Contact Form
-  1.Go to "Contact" page
-  2.Leave form blank
-  3.Press submit to verify "First Name" is required
-  4.Repeat to verify "Second Name" is required
-  5.Complete "First Name" and "Second Name" inputs
-  6.Attempt to Submit to verify email field must be complete
-  7.Repeat and reattempt with "confirm email" form incomplete to verify email fiel must be complete
-  8.Fill out fields except textarea and submit to verify textarea must be filled out
+  1. Go to "Contact" page
+  2. Leave form blank
+  3. Press submit to verify "First Name" is required
+  4. Repeat to verify "Second Name" is required
+  5. Complete "First Name" and "Second Name" inputs
+  6. Attempt to Submit to verify email field must be complete
+  7. Repeat and reattempt with "confirm email" form incomplete to verify email fiel must be complete
+  8. Fill out fields except textarea and submit to verify textarea must be filled out
   
  * Music Player
-  1.Go to "Music" page
-  2.Click one of the songs from the playlist to verify the Apple Music playlist embedded code is working correctly
-  3.Repeat method to prove there is no errors in the player
-  4.Click the Playlist link to verify the player will send the user to the Apple website "https://itunes.apple.com/gb/playlist/the-monkees-next-steps/pl.133a46cd60874557ad9a6fdf39d8c800"
+  1. Go to "Music" page
+  2. Click one of the songs from the playlist to verify the Apple Music playlist embedded code is working correctly
+  3. Repeat method to prove there is no errors in the player
+  4. Click the Playlist link to verify the player will send the user to the Apple website "https://itunes.apple.com/gb/playlist/the-monkees-next-steps/pl.133a46cd60874557ad9a6fdf39d8c800"
   
 ### Responsive design
  
@@ -153,15 +147,15 @@ Fans and people who are just learning about The Monkees can discover infomation 
 
 ### Content
 
- * All of the icons used on the site were taken from FontAwesome (https://fontawesome.com/)
+ * All of the icons used on the site were taken from [FontAwesome](https://fontawesome.com/)
  
- * The bands events and ticket sales were taken form Ticket Master (https://www.ticketmaster.com/the-monkees-tickets/artist/735678)
+ * The bands events and ticket sales were taken form [Ticket Master](https://www.ticketmaster.com/the-monkees-tickets/artist/735678)
  
- * The embedded music player was copied from Apple Music (https://www.apple.com/uk/music/)
+ * The embedded music player was copied from [Apple Music](https://www.apple.com/uk/music/)
  
- * The text used for the Bio page was copied from Wikipedia (https://en.wikipedia.org/wiki/Main_Page)
+ * The text used for the Bio page was copied from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
  
- * Hover effects copied from Hover.css (http://ianlunn.github.io/Hover/)
+ * Hover effects copied from [Hover.css](http://ianlunn.github.io/Hover/)
  
 
  
