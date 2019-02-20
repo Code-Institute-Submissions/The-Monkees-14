@@ -92,29 +92,26 @@ body {
 
 /*-----------------------Background-Image-----------------*/
 
-.image {
-    height: 500px;
-    width: auto;
-    background: url(../images/monkees.jpg) no-repeat;
-    background-position: top;
-}
-
 .image-column {
     padding: 0;
 }
 
+#background-image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /*-----------Top-Section----------*/
 
-.top-album {
-    height: 100%;
+#monkees-album {
+    height: 400px;
     width: 100%;
-    background-image: url(../images/album2black.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .album-column {
@@ -338,9 +335,6 @@ body {
     padding: 0;
 }
 
-
-
-
 /*---------------------Events---------------*/
 
 .event-background {
@@ -510,6 +504,7 @@ body {
 
 .footer-form .email {
     width: 70%;
+    padding: 2px;
 }
 
 .copy-right {
@@ -557,11 +552,43 @@ body {
     }
 }
 
+/*Front Page*/
+
+@media (min-width: 320px) and (max-width: 375px) {
+    #background-image {
+        height: 250px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    #background-image {
+        height: 400px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #background-image {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1025px) {
+    #background-image {
+        height: 800px;
+    }
+}
+
 /*music*/
+
+@media (min-width: 1024px) {
+    #music-video {
+        width: 50%;
+    }
+}
 
 @media (min-width: 768px) {
     #music-video {
-        width: 50%;
+        margin: 100px 0 80px 0;
     }
 }
 

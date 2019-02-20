@@ -141,6 +141,8 @@ Fans and people who are just learning about The Monkees can discover infomation 
  
 ## Deployment
 
+To create the website I have used the coding platform [Cloud9](https://c9.io/login). 
+My website has been deployed to [GitHub](www.GitHub.com) 
 
  
 ## Credits
