@@ -345,14 +345,25 @@ body {
 
 /*---------Music------------*/
 
+#daydream {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #292929;
+}
+
 .video-background {
-    background-color: #bfbfbf;
+    background-image: url("../images/blackwhitemonkees.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #music-video {
     width: 100%;
     height: 335px;
     margin: 20px 0 50px 0;
+    filter:opacity(90%);
 }
 
 #apple-music {
@@ -384,7 +395,7 @@ body {
     margin: 40px auto 50px auto;
     padding: 10px;
     display: block;
-    background-color: #efefef;
+    background-color: #efefeff2;
     color: #171717;
     border-radius: 5px;
 }
@@ -428,6 +439,13 @@ body {
     border-radius: 50px;
 }
 
+.event-overlay {
+    background-image: url("../images/themonkeesrainbow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*-------------Contact---------------*/
 
 .info-icon {
@@ -440,16 +458,12 @@ body {
     color: #ff8f00;
 }
 
-.form-background {
-    background-color: #f7f7f7;
-}
-
 .contact-list {
     margin: 20px auto;
     max-width: 400px;
     padding: 20px 12px 20px 20px;
     border: 1px solid #333333;
-    background-color: #efefef;
+    background-color: #efefeff2;
 }
 
 .contact-list li {
@@ -501,6 +515,13 @@ body {
     color: #000;
     font-weight: bold;
     transition: 0.3s ease-in-out;
+}
+
+.overlay {
+    background-image: url("../images/monkeeschair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*--------------------------Footer-----------------*/
@@ -650,7 +671,7 @@ body {
 
 @media (min-width: 768px) {
     #music-video {
-        margin: 150px 0 80px 0;
+        margin: 100px 0 80px 0;
     }
 }
 
