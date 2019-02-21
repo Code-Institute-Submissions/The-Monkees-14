@@ -35,6 +35,10 @@ body {
     margin-top: 12px;
 }
 
+.navbar-brand {
+    padding-left: 0;
+}
+
 .navbar-brand a {
     font-family: 'Bangers', cursive;
     font-size: 48px;
@@ -107,45 +111,91 @@ body {
 /*-----------Top-Section----------*/
 
 #monkees-album {
-    height: 400px;
+    height: 50vh;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.top-background {
+    height: 50vh;
+}
+
 .album-column {
     background-color: #e0e0e0;
-    height: 400px;
+    height: 50vh;
     padding: 0;
 }
 
 .text-column {
     background-color: #9e9e9e;
-    height: 400px;
+    height: 50vh;
 }
 
 .tour-column {
     background-color: #e0e0e0;
-    height: 400px;
+    height: 50vh;
+    padding: 0;
 }
 
 .tour-list li {
     list-style: none;
     display: block;
+    font-weight: bold;
 }
 
-.topsection-text p {
+.para-1 {
+    vertical-align: middle;
     text-align: center;
     font-size: 24px;
     font-family: 'Bangers', cursive;
-    margin-top: 150px;
+}
+
+.tour-container {
+    border: 1px solid;
+    margin: 0;
+    background-color: #b5b5b5;
+}
+
+.tour-container h3 {
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.tour-container h4 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.tour-container ul {
+    padding-left: 10px;
+}
+
+.tour-button {
+    position: relative;
+    left: 75px;
+    background-color: #171717;
+    color: #efefef;
+    width: 50%;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.tour-button:hover {
+    background-color: #ff8f00;
+    color: #171717;
+    transition: 0.3s ease-in-out;
 }
 
 /*------------------------Mid-Columns----------------*/
 
 .container-wrapper {
-    background-color: #4a4a4a;
+    background-color: #bfbfbf;
 }
 
 .midsection-icons {
@@ -183,52 +233,7 @@ body {
     background-color: #ff8f00;
     border: none;
     color: #000;
-    transition: 0.3s ease-in-out;
-}
-
-.tour-container {
-    border: 1px solid;
-    margin: 7px 0;
-    background-color: #b5b5b5;
-}
-
-.tour-container h3 {
-    font-family: 'Bangers', cursive;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.tour-container h4 {
-    margin-bottom: 10px;
-    text-decoration: underline;
-    margin-left: 10px;
-}
-
-.tour-container ul {
-    padding-left: 10px;
-}
-
-.tour-container li {
     font-weight: bold;
-    padding: 5px;
-    line-height: 16px;
-}
-
-.tour-button {
-    position: relative;
-    left: 75px;
-    background-color: #171717;
-    color: #efefef;
-    width: 50%;
-    margin-bottom: 5px;
-    border: none;
-}
-
-.tour-button:hover {
-    background-color: #ff8f00;
-    color: #171717;
     transition: 0.3s ease-in-out;
 }
 
@@ -236,6 +241,7 @@ body {
 
 .names {
     font-family: 'Bangers', cursive;
+    color: #171717;
 }
 
 .quotes {
@@ -244,10 +250,25 @@ body {
     padding: 2px;
     margin: 5px;
     text-align: center;
+    color: #171717;
 }
 
 .instrument {
     font-weight: bold;
+    color: #171717;
+}
+
+.orange-links {
+    color: #171717;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.orange-links:hover {
+    color: #ff8f00;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
 }
 
 .bio-container {
@@ -255,17 +276,27 @@ body {
 }
 
 .bmemberTop-container {
-    border: 1px solid;
     height: 500px;
     padding: 0;
     background-color: #a7a8aa;
 }
 
-.bmemberBottom-container {
-    border: 1px solid black;
+.bmemberMiddle1-container {
     height: 500px;
     padding: 0;
-    background-color: #d5dbe5;
+    background-color: #f7f7f7;
+}
+
+.bmembermiddle-container {
+    height: 500px;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+.bmemberBottom-container {
+    height: 500px;
+    padding: 0;
+    background-color: #757575;
 }
 
 .dj-image {
@@ -315,7 +346,7 @@ body {
 /*---------Music------------*/
 
 .video-background {
-    background-color: #b3b3b3;
+    background-color: #bfbfbf;
 }
 
 #music-video {
@@ -338,7 +369,7 @@ body {
 /*---------------------Events---------------*/
 
 .event-background {
-    background-color: grey;
+    background-color: #f7f7f7;
 }
 
 .upcoming {
@@ -350,7 +381,6 @@ body {
 
 .event-wrapper {
     max-width: 500px;
-    border: 1px solid;
     margin: 40px auto 50px auto;
     padding: 10px;
     display: block;
@@ -390,6 +420,13 @@ body {
     line-height: 28px;
 }
 
+.monkeeschair {
+    height: 400px;
+    width: 400px;
+    margin-top: 175px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
 
 /*-------------Contact---------------*/
 
@@ -400,10 +437,11 @@ body {
     width: 10px;
     font-size: 36px;
     margin-top: 10px;
+    color: #ff8f00;
 }
 
 .form-background {
-    background-color: #b3b3b3;
+    background-color: #f7f7f7;
 }
 
 .contact-list {
@@ -457,10 +495,11 @@ body {
 }
 
 .contact-list input[type=submit]:hover {
-    background-color: #545454;
+    background-color: #ff8f00;
     padding: 8px 15px;
     border: none;
-    color: #fff;
+    color: #000;
+    font-weight: bold;
     transition: 0.3s ease-in-out;
 }
 
@@ -470,8 +509,16 @@ body {
     background-color: #e8e8e8;
 }
 
+#footer-text {
+    margin: 25px;
+} 
+
+.footer-social {
+    margin: 0;
+}
+
 .footer-social i {
-    font-size: 30px;
+    font-size: 24px;
     padding: 10px;
     margin: 10px;
     border: transparent;
@@ -503,8 +550,13 @@ body {
 }
 
 .footer-form .email {
-    width: 70%;
-    padding: 2px;
+    width: 90%;
+    padding: 5px;
+    border: none;
+}
+
+.footer-form .email:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
 
 .copy-right {
@@ -574,7 +626,17 @@ body {
 
 @media (min-width: 1025px) {
     #background-image {
-        height: 800px;
+        height: 85vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .top-background,
+    .text-column,
+    .tour-column,
+    .album-column,
+    #monkees-album {
+        height: 30vh;
     }
 }
 
@@ -588,7 +650,7 @@ body {
 
 @media (min-width: 768px) {
     #music-video {
-        margin: 100px 0 80px 0;
+        margin: 150px 0 80px 0;
     }
 }
 
@@ -602,20 +664,40 @@ body {
 
 /*Footer*/
 
-@media (max-width: 453px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer-social i {
-        font-size: 20px;
+        font-size: 18px;
         padding: 5px;
+        margin: 2px;
     }
 
     .footer-social i:hover {
-        font-size: 20px;
+        font-size: 18px;
         padding: 5px;
+        margin: 2px;
+    }
+}
+
+@media (min-width: 767px) {
+    .footer-form .email {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer-form .email {
+        width: 30%;
+    }
+}
+
+@media (min-width: 320px) {
+    .copy-right {
+        font-size: 12px;
     }
 }
 
 @media (min-width: 768px) {
-    .footer-form .email {
-        width: 30%;
+    .copy-right {
+        font-size: 14px;
     }
 }
