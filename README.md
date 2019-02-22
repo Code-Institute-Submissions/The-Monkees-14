@@ -10,7 +10,7 @@ I have designed this website so that it is sleek, minimal and easy to navigate.
 ## UX
 
  The main focus throughout creating this website was to create a way for people to find out everything there is to know about The Monkees. 
-Fans and people who are just learning about The Monkees can discover infomation all about the band members, listen to their music, find out where the band are play, look to buy tickets and even get in contact if they wish to book the band for events.
+Fans and people who are just learning about The Monkees can discover infomation all about the band members, listen to their music, find out where the band are playing, look to buy tickets and even get in contact if they wish to book the band for events.
 
 ### User Stories
 
@@ -33,56 +33,47 @@ To create my wireframes / mock-ups I used [Balsamiq](https://balsamiq.com/?gclid
 ### Navigation
 
  * The navigation was designed to be easy and simple to use. Each page has a float effect when hovered over so that the user can easily see which direction the user is going to go. 
- * The navigation also as social media links so that no matter which page you are on the user can always be one click away from the bands social media.
+ * The navigation has social media links so that no matter which page you are on the user can always be one click away from the bands social media.
  * The navigation is in the exact same format throughout the site so that the user does not get confused. 
  * It also becomes a drop down navigation when using mobile resolution so that it takes up less screen space allowing more infomation to shown instead of the nav.
- 
 
 ### Front Page
 
  * The front page starts with a full width image of The Monkees so that the user knows exactly what the site is all about when first entering.
- * In the next section of the site there is three small columns which show a brief overview of some of the other pages information so that if the user only wanted to see the bands lastest events or some of there music.
- 
 
 ### Mid Section 
 
  * The mid section is the same throughout the site and this was created as another way that the user could quickly move to another page with just one click. It also gives a small brief on the page before entering.
- 
 
 ### Bio Page
 
- * The bio page has an image of each individual in the band and some information all about them to give the user a chance to get to know each band members back stories.
- * The information is also linked to the sites which it was taken from so that if the user wants to read more they can.
- 
+ * The bio page has an image of each individual in the band and some information all about them to give the user a chance to get to know each band member and their back stories.
+ * The information is also linked to the sites which the information was taken from so that if the user wants to read more they can.
 
 ### Music Page
 
- * The Music page starts with one of the bands music videos which has video player controls to give the user the control over the video.
+ * The Music page starts with one of the bands music videos which has a video player with controls to give the user the control.
  * The page then has an embedded Apple Music Playlist with some of The Monkees greatest hits. This player allows them to listen to their songs and also allows them to click the link to Apple Music and discover even more of the bands music.
- 
 
 ### Events Page
 
- * The events page is designed so that the user can check the bands upcoming events. 
+ * The events page is designed so that the user can simply check the bands upcoming events. 
  * Buttons were added to allow the user to be able to purchase tickets to the events. 
- 
 
 ### Contact Page
 
  * The Contact page is a form which the user will enter their full name and email. Within the form there as a subject dropdown to give the band more info on why the user is contacting them. 
  * Then a text area at the bottom of the form for the user to type out all the information they wish to give to the band about bookings or events.
- 
 
 ### Footer
 
  * The footer is the same throughout on every page to keep the site simple from the user.
  * The footer consists of a form which will allow the user to enter their email address and be emailed news and information about the bands music, events and their where abouts.
- * The footer also has the social media links on every page to allow the user easy access to the bands social media using one click.
+ * The footer also has social media links on every page to allow the user easy access to the bands social media using one click.
 
 #### Features to be implemented 
 
  * Another feature which could be added in the future could be a mechandise page which would allow the users to buy band clothing and accessories. 
- 
 
 ## Technologies Used
 
@@ -150,8 +141,8 @@ When the site is used on a small screen size the site is designed to stay as sim
 To create the website I have used the coding platform [Cloud9](https://c9.io/login). 
 Deployment and source control was entirely done via [GitHub](www.GitHub.com). My repository can be found here: 
 * https://github.com/elg1e/The-Monkees
-I've published the source code built from the master branch using GitHub Pages.
-The live site can be found here:
+
+I've published the source code built from the master branch using GitHub Pages. The live site can be found here:
 * https://elg1e.github.io/The-Monkees/
 
  
@@ -163,9 +154,9 @@ The live site can be found here:
  
  * The bands events and ticket sales were taken form [Ticketmaster](https://www.ticketmaster.com/the-monkees-tickets/artist/735678)
  
- * The text used for the Bio page was copied from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+ * The text used for the Bio page was taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
  
- * Hover effects copied from [Hover.css](http://ianlunn.github.io/Hover/)
+ * Hover effects taken from [Hover.css](http://ianlunn.github.io/Hover/)
 
 ### Media
 
@@ -174,7 +165,8 @@ The live site can be found here:
  * [dystopiandanceparty](http://www.dystopiandanceparty.com/wp-content/uploads/2016/09/The-Monkees-the-monkees-29574282-1280-885.jpg)
  * [HowStuffWorks](https://play.howstuffworks.com/quiz/monkees-quiz)
  * [WallpapersCraft](https://wallpaperscraft.com/download/the_monkees_peter_tork_michael_nesmith_george_michael_dolenz_bw_101804/1920x1080)
- The embedded music player was taken from:
+ 
+The embedded music player was taken from:
  * [Apple Music](https://www.apple.com/uk/music/)
  
 
