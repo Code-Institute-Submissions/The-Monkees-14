@@ -349,7 +349,7 @@ body {
     text-align: center;
     margin-top: 40px;
     font-style: italic;
-    color: #292929;
+    color: #f1f1f1;
 }
 
 .video-background {
@@ -395,7 +395,7 @@ body {
     margin: 40px auto 50px auto;
     padding: 10px;
     display: block;
-    background-color: #efefefc2;
+    background-color: #efefefcf;
     color: #171717;
     border-radius: 5px;
 }
@@ -458,12 +458,16 @@ body {
     color: #ff8f00;
 }
 
+.form-title {
+    color: #f1f1f1;
+}
+
 .contact-list {
     margin: 20px auto;
     max-width: 400px;
     padding: 20px 12px 20px 20px;
     border: 1px solid #333333;
-    background-color: #efefefc2;
+    background-color: #efefefcf;
 }
 
 .contact-list li {
