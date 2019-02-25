@@ -156,7 +156,7 @@ When the site is used on a small screen size the site is designed to stay as sim
 
 #### Desktops
 
- * > 1024px
+ * >1024px
  
 ## Deployment
 
