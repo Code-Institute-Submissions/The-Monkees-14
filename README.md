@@ -139,18 +139,24 @@ To create my wireframes / mock-ups I used [Balsamiq](https://balsamiq.com/?gclid
  The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes.
 When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible. 
 
- The website has been tested with the following device resolutions:
- * Mobiles
-  * Pixel 2/XL
-  * iPhone 5/SE/6/7/8
-  * iPhone 6/7/8+
-  * iPhone X
-  * Galaxy S5/S9/S9+
- * Tablets
-  * iPad/iPad Pro
-  * Kindle Fire HDX
- * Desktops
-  * <1024px
+ The website has been tested in the following device resolutions:
+
+#### Mobiles
+
+ * Pixel 2/XL
+ * iPhone 5/SE/6/7/8
+ * iPhone 6/7/8+
+ * iPhone X
+ * Galaxy S5/S9/S9+
+
+#### Tablets
+
+ * iPad/iPad Pro
+ * Kindle Fire HDX
+
+#### Desktops
+
+ * < 1024px
  
 ## Deployment
 
