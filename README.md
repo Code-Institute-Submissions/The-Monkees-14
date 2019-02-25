@@ -80,7 +80,7 @@ To create my wireframes / mock-ups I used [Balsamiq](https://balsamiq.com/?gclid
  * [HTML5](https://en.wikipedia.org/wiki/HTML5): Mark-up language used for creating the website.
  * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets): Stylesheet language used to create the presentation of the website.
  * [JavaScript](https://www.javascript.com/): Primary function of the site for all user interaction.
- * [JQuiry](https://jquery.com/): Used to simplify some of the DOM manipulations.
+ * [JQuery](https://jquery.com/): Used to simplify some of the DOM manipulations.
  * [BootStrap](https://getbootstrap.com/): Used to create the layout of the webpages.
  * [GoogleFonts](https://fonts.google.com/): Used to add different fonts to the website.
  * [FontAwesome](https://fontawesome.com/): Used to add icons to the website.
