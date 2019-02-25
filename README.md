@@ -86,7 +86,6 @@ To create my wireframes / mock-ups I used [Balsamiq](https://balsamiq.com/?gclid
  * [FontAwesome](https://fontawesome.com/): Used to add icons to the website.
  * [Hover.css](http://ianlunn.github.io/Hover/): Used to create navigation hover effects.
 
- 
 ## Testing
 
  * Ticket Buying Buttons
@@ -125,16 +124,20 @@ To create my wireframes / mock-ups I used [Balsamiq](https://balsamiq.com/?gclid
   2. Click one of the songs from the playlist to verify the Apple Music playlist embedded code is working correctly.
   3. Repeat method to prove there is no errors in the player.
   4. Click the Playlist link to verify the player will send the user to the [Apple](https://itunes.apple.com/gb/playlist/the-monkees-next-steps/pl.133a46cd60874557ad9a6fdf39d8c800) website.
+
+ The website has been tested with these browsers:
+ * [Google Chrome](https://www.google.co.uk/chrome/?brand=CHBD&gclid=Cj0KCQiA2L7jBRCBARIsAPeAsaOsMa4otl5LGC-UkkOzmyN552dJiHm9OdyqFbgcfxreEu1eT_zTYg8aAhrKEALw_wcB&gclsrc=aw.ds)
+ * [FireFox](https://www.mozilla.org/en-GB/firefox/new/)
+ * [Internet Explorer](https://www.microsoft.com/en-gb/download/internet-explorer.aspx)
  
+ The website has been Validated using:
  * [HTML Validation](https://validator.w3.org/): No Errors or warnings found.
  * [CSS Validation](https://jigsaw.w3.org/css-validator/): No Errors or warnings found.
 
-
 ### Responsive design
  
-The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes.
+ The website has been tested using the developer tools in the browser so that the website will be compatible in different screen sizes.
 When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
-
  
 ## Deployment
 
@@ -145,7 +148,6 @@ Deployment and source control was entirely done via [GitHub](www.GitHub.com). My
 I've published the source code built from the master branch using GitHub Pages. The live site can be found here:
 * https://elg1e.github.io/The-Monkees/
 
- 
 ## Credits
 
 ### Content

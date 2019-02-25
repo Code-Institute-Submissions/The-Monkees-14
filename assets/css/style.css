@@ -94,7 +94,7 @@ body {
 }
 
 
-/*-----------------------Background-Image-----------------*/
+/*-----------------------Front-PageBackground-Image-----------------*/
 
 .image-column {
     padding: 0;
@@ -343,7 +343,7 @@ body {
     border-radius: 250px;
 }
 
-/*---------Music------------*/
+/*---------Music-Page------------*/
 
 #daydream {
     text-align: center;
@@ -377,7 +377,7 @@ body {
     padding: 0;
 }
 
-/*---------------------Events---------------*/
+/*---------------------Events-Page---------------*/
 
 .event-background {
     background-color: #f7f7f7;
@@ -446,7 +446,7 @@ body {
     background-size: cover;
 }
 
-/*-------------Contact---------------*/
+/*-------------Contact-Page---------------*/
 
 .info-icon {
     display: block;
@@ -501,24 +501,6 @@ body {
 .discription {
     height: 100px;
     width: 100%;
-}
-
-.contact-list input[type=submit] {
-    background-color: #333333;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 25px;
-    color: #fff;
-    transition: 0.3s ease-in-out;
-}
-
-.contact-list input[type=submit]:hover {
-    background-color: #ff8f00;
-    padding: 8px 15px;
-    border: none;
-    color: #000;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
 }
 
 .overlay {
@@ -588,7 +570,9 @@ body {
     color: #292929;
 }
 
-.footer-form input[type=submit] {
+/*Same button for the contact form*/
+
+#form-sub {
     border: none;
     border-radius: 25px;
     background-color: #333333;
@@ -597,7 +581,7 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.footer-form input[type=submit]:hover {
+#form-sub:hover {
     background-color: #545454;
     color: #fff;
     transition: 0.3s ease-in-out;

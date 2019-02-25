@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Monkees</title>
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -91,19 +100,19 @@
                 <div class="col-xs-12">
                     <i class="fas fa-info info-icon"></i>
                     <h4 class="text-center form-title"><strong>Get in touch about bookings, events or anything else by filling out this form:</strong></h4>
-                    <form>
+                    <form name="contactForm" onsubmit="return validateForm();" method="post">
                         <ul class="contact-list">
                             <li>
                                 <label>Full Name:</label>
-                                <input type="text" name="name" required="required" placeholder="First Name" class="first">
-                                <input type="text" name="name" required="required" placeholder="Second Name" class="second">
+                                <input type="text" name="fname" required="required" placeholder="First Name" class="first">
+                                <input type="text" name="fname" required="required" placeholder="Second Name" class="second">
                             </li>
                             <li>
                                 <label>Email:</label>
-                                <input type="email" name="email" required="required" placeholder="Email" class="email">
+                                <input type="email" name="fname" required="required" placeholder="Email" class="email">
                             </li>
                             <li>
-                                <label>Confirm Email:</label><input type="text" name="email" required="required" placeholder="Confirm Email" class="c-email">
+                                <label>Confirm Email:</label><input type="text" name="fname" required="required" placeholder="Confirm Email" class="c-email">
                             </li>
                             <li>
                                 <label>Subject:</label>
@@ -115,10 +124,10 @@
                             </li>
                             <li>
                                 <label>Please give as much description as possible:</label>
-                                <textarea name="textarea" class="discription" required="required"></textarea>
+                                <textarea name="fname" class="discription" required="required"></textarea>
                             </li>
                             <li>
-                                <input type="submit" value="Submit">
+                                <input id="form-sub" type="submit" value="Submit">
                             </li>
                         </ul>
                     </form>
