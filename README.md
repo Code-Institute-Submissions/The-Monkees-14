@@ -154,10 +154,8 @@ When the site is used on a small screen size the site is designed to stay as sim
  * iPad/iPad Pro
  * Kindle Fire HDX
 
-#### Desktops
+#### Desktops/XL Desktops
 
- * $>$1024px
- 
 ## Deployment
 
 To create the website, I have used the coding platform [Cloud9](https://c9.io/login). 
